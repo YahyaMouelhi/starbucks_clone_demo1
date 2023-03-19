@@ -1,0 +1,411 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+hr{
+    margin: 20px auto;
+    color: #eee;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Navbar and its component : */
+.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+.navbar .container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+
+.navbar .container div a{
+    font-size: 16px;
+    margin: 0 10px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.navbar .container .nd1 a:first-child{
+    font-size: 26px;
+}
+
+.navbar .container div a:hover{
+    color: #006518;
+}
+
+.navbar .container .nd2 a:nth-child(2){
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.navbar .container .nd2 a:last-child{
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.navbar .container .nd2 a:nth-child(2):hover{
+    background-color: #eee;
+    color: black;
+}
+
+.navbar .container .nd2 a:last-child:hover{
+    background-color: #525252;
+}
+
+/* First div */
+
+.d1{
+    margin-top: 40px;
+    background-color: #03342cec;
+    height: 320px;
+    display: flex;
+    text-align: center;
+}
+
+.d1 div{
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+.d1 div h2{
+    color: whitesmoke;
+}
+
+.d1 div p{
+    color: white;
+    font-size: 14px;
+}
+
+.d1 div a{
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.d1 img{
+    width: 50%;
+}
+
+.d1 div .d1nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* Second div */
+.d2{
+    margin-top: 40px;
+    background-color: rgb(255, 179, 0);
+    display: flex;
+    text-align: center;
+    color: #323232;
+}
+
+.d2 img{
+    width: 50%;
+}
+
+.d2 div{
+    width: 50%;
+    position: relative;
+}
+
+.d2 div .d2nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.d2 div a{
+    color: #323232;
+    background-color: transparent;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* Third div : */
+
+.d3{
+    margin-top: 40px;
+    background-color: rgb(248, 185, 227);
+    display: flex;
+    text-align: center;
+}
+
+.d3 div{
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+.d3 div a{
+    color: #323232;
+    background-color: transparent;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.d3 img{
+    width: 50%;
+}
+
+.d3 div .d3nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Fourth div : */
+.d4{
+    margin-top: 40px;
+    background-color: rgb(255, 235, 188);
+    display: flex;
+    text-align: center;
+    color: #323232;
+}
+
+.d4 img{
+    width: 50%;
+}
+
+.d4 div{
+    width: 50%;
+    position: relative;
+}
+
+.d4 div .d4nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.d4 div a{
+    color: #323232;
+    background-color: transparent;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+/* Fifth div : */
+
+.d5{
+    margin-top: 40px;
+    background-color: #d4e9e2;
+    display: flex;
+    text-align: center;
+}
+
+.d5 div{
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+.d5 div a{
+    color: #323232;
+    background-color: transparent;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.d5 img{
+    width: 50%;
+}
+
+.d5 div .d5nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Sixth div */
+.d6{
+    margin-top: 40px;
+    background-color: #d4e9e2;
+    display: flex;
+    text-align: center;
+    color: #323232;
+}
+
+.d6 img{
+    width: 50%;
+}
+
+.d6 div{
+    width: 50%;
+    position: relative;
+}
+
+.d6 div .d6nd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.d6 div a{
+    color: #323232;
+    background-color: transparent;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* Music Rocks right !? - random stuff */ 
+
+.wtf{
+    margin: 60px auto;
+    width: 66%;
+    text-align: center;
+}
+
+
+/* Ending div : */
+.end{
+    border-top: 1px solid #eee;
+}
+
+.end .links1{
+    display: flex;
+    line-height: 2;
+}
+
+.end .links1 div{
+    width: 186px;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.end .links1 div *{
+    display: block;
+}
+
+.end .links1 div a{
+    text-decoration: none;
+    color: grey;
+}
+
+.end .links1 div a:hover{
+    color: #323232;
+}
+
+.end .links2 {
+    display: flex;
+}
+
+.end .links2 a{
+    font-size: 22px;
+    margin-right: 6px;
+    color: #323232;
+    padding: 6px;
+}
+
+.end .links2 a:hover{
+    background-color: rgb(182, 182, 182);
+    border-radius: 50%;
+}
+
+.end .links3 {
+    margin: 20px 0;
+    font-size: 14px;
+    text-decoration: solid;
+}
+
+.end .links3 a{
+    margin-right:8px;
+    color: #323232;
+    text-decoration: none;
+    border-right: 0.1px solid black;
+    padding-right: 8px;
+}
+
+.end .links3 a:hover{
+    text-decoration: underline;
+}
+
+.end .links3 a:last-child{
+    border: none;
+}
+
+.cpp{
+    font-size: 12px;
+    color: #525252;
+}
+
+/*
+
+
+I FEEL LIKE IM DOING SOMETHING WRONG I MEAN , SAME THING IS HAPPENING ALWAYS 
+50% - 50% AND IM JUST PUTTING A LOOOOT OF CODES HMMMMM , M GONNA KEEP WORKING 
+LIKE THIS AND WHEN I FINISH ILL TRY TO MAKE SOMETHING COMMUN FOR ALL DIVS ...
+
+I WILL TRY TO REMAKE IT ANOTHER TIME BUT I MIGHT ADD SOME FEATURES : RESPONSIVE + REDUCEC CODE
+BECAUSE IM SURE THAT I FUCKED UP AND USED A LOOOOOTTT OF UNECESSARY CODE ...
+ANYWAY IM STILL LEARNING AND FAILING IS BETTER THAN NOT TRYING SO YEAH UMMM
+
+SEE YOU IN THE NEXT VIDEO :=)
+
+
+*/
